@@ -101,8 +101,48 @@ a {
 .ran-info {
     background-color: white;
     text-align: center;
+    min-height: 400px;
 }
 
 .ran-info > h2 {
     margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.ran-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    justify-content: center;
+    gap: 32px;
+    margin-bottom: 48px;
+}
+
+.info > img {
+    max-width: 150px;
+    width: 100%;
+    max-height: 150px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+    display: block;
+}
+
+.text-info {
+    max-width: 150px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+    max-width: 800px;
 }
