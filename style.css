@@ -134,15 +134,74 @@ a {
 
 .quote {
     background-color: #e5e7eb;
-    padding: 48px;
+    padding: 80px 20px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+    line-height: 1.3;
+}
+
+.quote-author {
+    margin-top: 16px;
+    text-align: right;
+    font-size: 22px;
+    font-weight: 700;
+    color: #1f2937;
+}
+
+.quote-container {
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+.sign-up {
+    background-color: white;
+    padding: 80px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up-container {
+    background-color: #3882f6;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 32px 64px;
+    border-radius: 16px;
+    gap: 128px;
+}
+
+.up {
+    font-size: 18px;
+    color: #f9faf8;
+    font-weight: 600;
+}
+
+.more-info {
+    color: #e5e7eb;
+}
+
+.right-sec > button {
+    padding: 8px 32px;
+    color: #f9faf8;
+    background-color: #3882f6;
+    border: solid 2px #f9faf8;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+footer {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.quote-text {
-    font-size: 36px;
-    font-weight: 300;
-    color: #1f2937;
-    max-width: 800px;
+footer > p {
+    color: #f9faf8;
 }
